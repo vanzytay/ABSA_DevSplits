@@ -1,6 +1,8 @@
 ## Dataset Splits for our AAAI'18 paper
 
-Commonly used SemEval14 datasets (Laptop and Restaurants) do not use 
+Note:The datasets have been updated because the wrong ones have been uploaded. Only Laptop Term and Restaurant Aspects should be affected. The rest should be fine. Drop me an email if you find any issues.
+
+Commonly used SemEval14 datasets (Laptop and Restaurants) do not use
 dev splits. In many works, the evaluation is conducted *solely* on the test set. We believe that proper evaluation should include a dev set.
 
 In this repository, you will find the train/test/dev splits from our
@@ -21,8 +23,3 @@ The format of each data instance is:
 [tokenized_txt, actual_len, tokenized_terms, term_len, polarity, info]
 ```
 where `info` is something like the position information.
-
-
-
-
-
